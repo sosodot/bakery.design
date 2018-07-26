@@ -136,7 +136,7 @@ body {
         margin-bottom: 0; }
         @media (max-width: 599px) {
           #site-content .above-content div .container {
-            margin-top: 80%; } }
+            margin-top: 100%; } }
         #site-content .above-content div .container p {
           color: #81909a;
           font-size: 0.8rem;
@@ -145,6 +145,9 @@ body {
           #site-content .above-content div .container p .icon {
             color: #f2887d;
             padding: 0 5px; }
+          @media (max-width: 599px) {
+            #site-content .above-content div .container p {
+              margin-left: 0; } }
         #site-content .above-content div .container .above-description {
           float: left;
           margin-left: 15px;
@@ -153,6 +156,7 @@ body {
           @media (max-width: 599px) {
             #site-content .above-content div .container .above-description {
               float: none;
+              margin-left: 0;
               max-width: 100%;
               width: 80%; } }
           @media (min-width: 600px) and (max-width: 960px) {
@@ -179,11 +183,12 @@ body {
         @media (max-width: 599px) {
           #site-content .above-content div .hero-image {
             float: none;
-            margin: 0 auto;
+            left: 20%;
             overflow: visible;
-            position: absolute;
-            top: 10%;
+            margin: 0 auto;
             max-width: 100%;
+            position: absolute;
+            top: 15%;
             width: 80%; } }
         @media (min-width: 600px) and (max-width: 960px) {
           #site-content .above-content div .hero-image {
@@ -204,7 +209,7 @@ body {
       float: right; }
   #site-content .contacts-content {
     background: rgba(107, 124, 147, 0.2);
-    color: #ffffff;
+    color: #81909a;
     height: 370px;
     margin-top: 5%;
     padding: 30px 5%;
