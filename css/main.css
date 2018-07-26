@@ -210,7 +210,7 @@ body {
   #site-content .contacts-content {
     background: rgba(107, 124, 147, 0.2);
     color: #ffffff;
-    height: 370px;
+    height: 390px;
     margin-top: 5%;
     padding: 30px 5%;
     width: 80%; }
@@ -279,9 +279,9 @@ body {
                   padding: 5%;
                   width: 85%; } }
               #site-content .contacts-content div article:last-child .container-form div input:focus, #site-content .contacts-content div article:last-child .container-form div textarea:focus {
-                background: #f7b231;
-                border: 1px solid #ffffff;
-                color: #ffffff;
+                background: none;
+                border: 1px solid #f7b231;
+                color: #444444;
                 outline: none; }
             #site-content .contacts-content div article:last-child .container-form div textarea {
               height: 60px; }
