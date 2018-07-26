@@ -209,7 +209,7 @@ body {
       float: right; }
   #site-content .contacts-content {
     background: rgba(107, 124, 147, 0.2);
-    color: #81909a;
+    color: #ffffff;
     height: 370px;
     margin-top: 5%;
     padding: 30px 5%;
@@ -217,7 +217,7 @@ body {
     @media (max-width: 960px) {
       #site-content .contacts-content {
         max-width: 80%;
-        height: 650px; } }
+        height: 680px; } }
     #site-content .contacts-content div article {
       margin: 0 2%;
       position: relative; }
@@ -236,7 +236,7 @@ body {
           #site-content .contacts-content div article:first-child p:nth-child(1) {
             margin: 0; }
           #site-content .contacts-content div article:first-child p:last-child {
-            color: #444444;
+            color: #f7b231;
             margin-top: 70px; }
             @media (max-width: 960px) {
               #site-content .contacts-content div article:first-child p:last-child {
@@ -262,20 +262,22 @@ body {
             margin-bottom: 20px; }
             #site-content .contacts-content div article:last-child .container-form div label {
               font: 1rem "lato", sans-serif;
+              margin-bottom: 10px;
               text-align: left; }
             #site-content .contacts-content div article:last-child .container-form div input, #site-content .contacts-content div article:last-child .container-form div textarea {
-              background: rgba(255, 255, 255, 0.2);
+              background: rgba(255, 255, 255, 0.4);
               border: none;
               color: #81909a;
               display: block;
-              font: 0.8rem "lato", sans-serif;
+              font: 1rem "lato", sans-serif;
+              margin-top: 10px;
               padding: 15px 20px;
               text-align: left;
               width: 100%; }
               @media (max-width: 599px) {
                 #site-content .contacts-content div article:last-child .container-form div input, #site-content .contacts-content div article:last-child .container-form div textarea {
                   padding: 5%;
-                  width: 80%; } }
+                  width: 85%; } }
               #site-content .contacts-content div article:last-child .container-form div input:focus, #site-content .contacts-content div article:last-child .container-form div textarea:focus {
                 background: #f7b231;
                 border: 1px solid #ffffff;
