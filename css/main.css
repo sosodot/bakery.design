@@ -142,7 +142,7 @@ body {
             margin-top: 100%; } }
         #site-content .above-content div .container p {
           color: #81909a;
-          font-size: 0.8rem;
+          font-size: 1rem;
           margin-left: 15px;
           text-transform: uppercase; }
           #site-content .above-content div .container p .icon {
@@ -176,7 +176,7 @@ body {
             padding: 0px; }
             #site-content .above-content div .container .above-description .skills-list li {
               color: #81909a;
-              font-size: 0.8rem;
+              font-size: 1rem;
               text-transform: uppercase; }
       #site-content .above-content div .hero-image {
         float: right;
