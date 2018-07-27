@@ -375,13 +375,14 @@ footer {
       font-size: 0.8rem;
       margin: 0 auto;
       padding: 16px 40px;
-      width: 150px; }
+      width: 250px; }
       #full-content .thank-you-content .above-navigation a.page-scroll:hover {
         background-color: #f7b231;
         color: #ffffff; }
       @media (max-width: 599px) {
         #full-content .thank-you-content .above-navigation a.page-scroll {
           margin: auto;
-          float: none; } }
+          float: none;
+          width: 100%; } }
 
 /* --- END THANK YOU PAGE --- */
