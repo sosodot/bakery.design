@@ -117,7 +117,7 @@ body {
     #header-content div .brand {
       color: #f7b231;
       float: left;
-      font-size: 0.8rem;
+      font-size: 1rem;
       padding-left: 16px;
       margin: 2px 0 0 0; }
 
@@ -201,12 +201,23 @@ body {
             width: 90%; } }
     @media (max-width: 599px) {
       #site-content .above-content .above-navigation {
-        margin-top: 15%; } }
+        margin-bottom: 50px;
+        margin-top: 15%;
+        text-align: center; } }
     #site-content .above-content .above-navigation a.page-scroll {
       background-color: lightyellow;
+      border: 1px solid #f7b231;
       font-family: "montserrat", sans-serif;
       font-size: 0.8rem;
-      float: right; }
+      float: right;
+      padding: 16px 40px; }
+      #site-content .above-content .above-navigation a.page-scroll:hover {
+        background-color: #f7b231;
+        color: #ffffff; }
+      @media (max-width: 599px) {
+        #site-content .above-content .above-navigation a.page-scroll {
+          margin: auto;
+          float: none; } }
   #site-content .contacts-content {
     background: rgba(107, 124, 147, 0.2);
     color: #ffffff;
@@ -236,8 +247,10 @@ body {
           #site-content .contacts-content div article:first-child p:nth-child(1) {
             margin: 0; }
           #site-content .contacts-content div article:first-child p:last-child {
-            color: #f7b231;
-            margin-top: 70px; }
+            color: #444444;
+            font-weight: 700;
+            margin-top: 70px;
+            text-decoration: underline; }
             @media (max-width: 960px) {
               #site-content .contacts-content div article:first-child p:last-child {
                 margin-top: 20px; } }
@@ -316,7 +329,7 @@ footer {
           float: none; } }
     footer .footer-content p, footer .footer-content ul li {
       margin: 0px 20px; }
-      @media (max-width: 599px) {
+      @media (max-width: 960px) {
         footer .footer-content p, footer .footer-content ul li {
           margin: 10px; } }
     footer .footer-content ul li {
