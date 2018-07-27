@@ -161,7 +161,7 @@ body {
               float: none;
               margin-left: 0;
               max-width: 100%;
-              width: 80%; } }
+              width: 100%; } }
           @media (min-width: 600px) and (max-width: 960px) {
             #site-content .above-content div .container .above-description {
               max-width: 50%; } }
