@@ -129,12 +129,12 @@ body {
 #site-content {
   margin-top: 7%; }
   #site-content .above-content {
-    margin-top: 15%; }
+    margin-top: 13%; }
     @media (max-width: 599px) {
       #site-content .above-content {
         margin-top: 30%; } }
     #site-content .above-content div {
-      margin-bottom: 10%; }
+      margin-bottom: 8%; }
       #site-content .above-content div .container {
         margin-bottom: 0; }
         @media (max-width: 599px) {
@@ -172,7 +172,7 @@ body {
             font-size: 1.125rem; }
           #site-content .above-content div .container .above-description .skills-list {
             color: #f7b231;
-            margin-top: 15px;
+            margin-top: 25px;
             padding: 0px; }
             #site-content .above-content div .container .above-description .skills-list li {
               color: #81909a;
@@ -252,8 +252,7 @@ body {
           #site-content .contacts-content div article:first-child p:last-child {
             color: #f7b231;
             font-weight: 700;
-            margin-top: 70px;
-            text-decoration: underline; }
+            margin-top: 70px; }
             @media (max-width: 960px) {
               #site-content .contacts-content div article:first-child p:last-child {
                 margin-top: 20px; } }
