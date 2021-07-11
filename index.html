@@ -15,134 +15,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
         <title>Bakery Design</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Montserrat:700" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/main.css">
     </head>
 
     <body>
-        <!-- START HEADER -->
-        <header id="header-content">
-            <div class="section-content">
+        <div class="container">
 
-                <!-- BRAND LOGO -->
-                <h1 class="brand">Bakery Design</h1>
-            </div>
-        </header>
-        <!-- END HEADER -->
+            <!-- START HEADER -->
+            <header id="header-content">
+                <section class="brand">
+                    <!-- BRAND LOGO -->
+                    <div class="brand-logo">
+                      <img class="logo" src="./images/logo-bakery.svg" alt="Bakery Design logo">
+                    </div>
 
-        <!-- START CONTENT -->
-        <main id="site-content">
-            <!-- START ABOVE THE FOLD CONTENT -->
-            <section id="top" class="section-content above-content row">
+                    <!-- BRAND DESCRIPTION -->
+                    <div class="brand-description">
+                      <p>Personal brand</p>
+                      <p class="bold">Sónia Reis</p>
+                    </div>
+                </section>
+            </header>
+            <!-- END HEADER -->
 
-                <!-- ABOVE THE FOLD DESCRIPTION -->
-                <div class="row">
-                    <div class="container">
-                        <p class="special-style">Bakery Design <i class="fas fa-heart icon"></i> Sónia Reis</p>
+            <!-- START CONTENT -->
+            <main>
+                <!-- START ABOVE THE FOLD CONTENT -->
+                <section class="hero">
+                    <div class="hero-container">
+                        <div class="hero-title">
+                            <h2 class="author-claim">I'm Sónia Reis, a Product Designer with a passion for people.</h2>
+                            <p>I could say this website will be finished tomorrow, but let's face it... it's not going to happen.</p>
+                        </div>
 
-                        <div class="above-description">
-                            <h2>I'm a digital designer with a passion for
-                                simplifying complex interfaces, making them more intuitive to users.
-                                <span>& I love cookies</span>
-                            </h2>
-                            <ul class="skills-list">
-                                <li>UI/UX</li>
-                                <li>Illustration</li>
-                                <li>Motion Design</li>
-                            </ul>
+                        <div class="hero-contacts">
+                            <a class="button" href="https://www.linkedin.com/in/soniadosreis/">Check Linkedin</a>
+                        </div>
+
+                        <div class="hero-background">
+                            <!--- <img class="hero-image" src="./images/hero-image-background.png" alt="Triagem Smart app screens"> -->
+                            <div class="hero-image-overlay"></div>
                         </div>
                     </div>
+                </section>
+                <!-- END ABOVE THE FOLD CONTENT -->
 
-                    <div class="hero-image">
-                        <img src="./images/hero-image.png" alt="Illustration of Sónia Reis">
-                    </div>
-                </div>
-
-                <!-- ABOVE THE FOLD NAVIGATION OPTIONS -->
-                <aside class="above-navigation row">
-
-                    <!-- DIRECT SCROLL -->
-                    <a href="http://www.behance.net/soniadosreis" target="_blank" class="page-scroll"><i class="fas fa-angle-right icon"></i>See some work</a>
-                </aside>
-            </section>
-            <!-- END ABOVE THE FOLD CONTENT -->
-
-            <!-- START CONTACTS -->
-            <section id="contacts" class="section-content contacts-content row">
-
-                <div class="row">
-                    <div class="row">
-
-                        <!-- CONTACT INFO -->
-                        <article>
-                            <p>Have something on your mind?</p>
-                            <h2>Let's grab a coffee <br />and share ideas</h2>
-                            <p>Don't like forms that much?
-                                <br />You can drop me a line at <span>sonia.reis@bakerydesign.pt</span>
-                            </p>
-                            <p>Available for freelance work.</p>
-                        </article>
-
-                        <!-- CONTACT FORM -->
-                        <article>
-                            <form action="https://formspree.io/f/xwkaoyvj" method="POST">
-                                <input type="hidden" name="_next" value="https://sosodot.github.io/thank-you.html" />
-                                <div class="container-form">
-
-                                    <!-- NAME INPUT -->
-                                    <div>
-                                        <label>
-                                            Name
-                                            <input type="text" name="name" placeholder="Your name" autocomplete="name" required>
-                                        </label>
-                                    </div>
-
-                                    <!-- EMAIL INPUT -->
-                                    <div>
-                                        <label>
-                                            Email
-                                            <input type="email" name="email" placeholder="your@email.com" autocomplete="email" required>
-                                        </label>
-                                    </div>
-
-                                    <!-- MESSAGE INPUT -->
-                                    <div>
-                                        <label>
-                                            Message
-                                            <textarea type="text" name="message" placeholder="Say hi to me :)" required></textarea>
-                                        </label>
-
-                                    </div>
-                                </div>
-
-                                <!-- FORM BUTTON -->
-                                <div>
-                                    <button type="submit">Let's meet</button>
-                                </div>
-                            </form>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            <!-- END CONTACTS -->
-        </main>
-        <!-- END CONTENT -->
-
-        <!-- START FOOTER -->
-        <footer class="row">
-            <div class="section-content footer-content">
-                <!-- COPYRIGHT -->
-                <p><i class="far fa-copyright"></i> Bakery Design 2018</p>
-
-                <!-- SOCIAL LINKS -->
-                <ul class="social-content">
-                    <li><a href="https://www.linkedin.com/in/soniadosreis/" target="_blank"><i class="fab fa-linkedin-in icon"></i>Linkedin</a></li>
-                    <li><a href="https://www.instagram.com/bakery.design/" target="_blank"><i class="fab fa-instagram icon"></i>Instagram</a></li>
-                    <li><a href="http://www.behance.net/soniadosreis" target="_blank"><i class="fab fa-behance icon"></i>Behance</a></li>
-                </ul>
-            </div>
-        </footer>
-        <!-- END FOOTER -->
+            </main>
+            <!-- END CONTENT -->
+        </div>
     </body>
 </html>

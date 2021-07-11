@@ -1,25 +1,44 @@
 /* --- IMPORTS --- */
-/* FONTS */
-/* FONT SIZES */
-/* COLOR PALETTE */
-/* SHADOW BACKGROUNDS */
-/* MARGINS */
-/* BREAKPOINTS */
-body, h2, h1, h3, div, section, aside, header, footer, nav, p, ul, ol, li, article, img, main, a {
-  margin: 0;
-  padding: 0; }
+
+@import "config.css";
 
 /* --- GENERAL --- */
 body {
-  color: #444444;
-  font-family: "lato", sans-serif;
+  color: white;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
-  font-weight: 300;
-  margin: 0px;
-  padding: 0px; }
-  body h2 {
+  margin: auto;
+  }
+
+h2 {
+  color: white;
+  font-size: 4vw;
+  line-height: 5vw;
+  font-weight: 'semi-bold';
+}
+
+@media (max-width: 799px) {
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.container {
+  border-radius: 16px;
+  margin: 24px;
+  padding: 64px 20%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+  /*body h2 {
     color: #444444;
-    font-family: "montserrat", sans-serif;
+    font-family: 'Bona Nova', serif;
     font-size: 2.25rem;
     font-weight: 300;
     line-height: 1.5;
@@ -102,9 +121,10 @@ body {
     font-weight: 300; }
   body .icon {
     padding-right: 10px; }
+  */
 
 /* --- START HEADER CONTENT --- */
-#header-content {
+/*#header-content {
   background: #ffffff;
   padding: 15px 0;
   position: fixed;
@@ -123,10 +143,116 @@ body {
       @media (max-width: 599px) {
         #header-content div .brand {
           padding-left: 0; } }
+  */
+
+.brand {
+  display: flex;
+  font-size: 12px;
+  margin: 40px 0;
+  align-items: center;
+}
+
+.logo {
+  height: auto;
+  margin-bottom: 16px;
+  width: 64px;
+}
+
+.brand-description {
+  object-position: bottom;
+}
 
 /* --- END HEADER CONTENT --- */
+
 /* --- START CONTENT --- */
-#site-content {
+
+.hero {
+  overflow: hidden;
+}
+
+.hero-title {
+  margin-bottom: 64px;
+}
+
+.hero-title h2 {
+  margin-bottom: 24px;
+}
+
+.hero-title p {
+  font-size: 2vw;
+}
+
+@media (max-width: 799px) {
+  .hero-title p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.hero-contacts {
+  margin-bottom: 24px;
+}
+
+.button {
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+  font-style: normal;
+  padding: 16px 32px;
+  text-decoration-line: none;
+}
+
+@media (max-width: 599px) {
+  .button {
+    width: 100%;
+  }
+
+}
+
+.button:hover {
+  background-color: rgba(100,100,100,0.5);
+}
+
+.hero-image {
+  border-radius: 16px;
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  opacity: 0.4;
+  overflow: hidden;
+  height: 100%;
+}
+
+/*img {
+  width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+  overflow: hidden;
+  background-size: cover;
+} */
+
+.hero-image-overlay {
+  border-radius: 16px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: -5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 24px;
+  background: #002CEF;
+  margin: 24px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+
+/*#site-content {
   margin-top: 7%; }
   #site-content .above-content {
     margin-top: 13%; }
@@ -311,10 +437,10 @@ body {
           #site-content .contacts-content div article:last-child button:hover, #site-content .contacts-content div article:last-child button:active {
             background: #81909a;
             color: #ffffff; }
-
+*/
 /* --- END CONTENT --- */
 /* --- START FOOTER --- */
-footer {
+/*footer {
   display: inline;
   font-size: 0.8rem; }
   footer .footer-content {
@@ -333,10 +459,10 @@ footer {
           margin: 10px; } }
     footer .footer-content ul li {
       background-color: lightyellow; }
-
+*/
 /* --- END FOOTER --- */
 /* --- START THANK YOU PAGE --- */
-#full-content .thank-you-content {
+/*#full-content .thank-you-content {
   margin-top: 15%; }
   @media (max-width: 599px) {
     #full-content .thank-you-content {
@@ -383,5 +509,5 @@ footer {
           margin: auto;
           float: none;
           width: 100%; } }
-
+*/
 /* --- END THANK YOU PAGE --- */
